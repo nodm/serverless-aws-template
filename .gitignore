@@ -1,0 +1,21 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# webpack directories
+.webpack
+dist
+
+# IDEs' files
+.vscode
+.idea
+
+# Jest
+coverage
+test-report.xml
+
+#ESLint
+.eslintcache

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Hello lambda configuration should create Hello lambda configuration 1`] = `
+{
+  "events": [
+    {
+      "http": {
+        "method": "get",
+        "path": "hello",
+      },
+    },
+  ],
+  "handler": "src/functions/hello/handler.main",
+  "memorySize": 128,
+  "timeout": 5,
+}
+`;
